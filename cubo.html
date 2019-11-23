@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Movies Database Beta</title>
+  <link rel="stylesheet" type="text/css" href="cubo.css"></style>
+</head>
+<body class="">
+  <!-- Page Title -->
+  <div class="bg-blue">
+    <h1 class="txt-blue title">Movies</h1>
+  </div>
+  <!-- Search Results -->
+  <div class="resultados hide">
+    <!-- Search Bar -->
+    <div class="m-auto c-center mb-p5">
+      <input class="m-auto w-75 bg-grey rd-border" type="text" name="search" value="" placeholder="Busque um filme por nome, ano ou gênero">
+    </div>
+    <!-- Search Results and Suggestions -->
+    <!-- Show results 1 to 5 -->
+    <div class="w-75 m-auto">
+      <!-- 1st Result -->
+      <div class="grid2575 mb-p5 detalhe" id="result1">
+        <!-- 2 Columns, one with IMG and other with info -->
+        <!-- Image -->
+        <div class="">
+          <!-- https://image.tmdb.org/t/p/original/ -->
+          <img id="poster1" src="https://image.tmdb.org/t/p/original/" alt="">
+        </div>
+        <!-- Movie Info -->
+        <div class="bg-grey">
+          <!-- Movie Title, Grade and Release Date -->
+          <!-- Maybe make with 2 divs? -->
+          <div class="grid1090">
+            <!-- Movie Score -->
+            <div class="bg-blue w-10 ball-border">
+              <p id="score1" class="txt-blue title my-0">75%</p>
+            </div>
+            <div class="bg-grey">
+              <div class="bg-blue">
+                <p id="name1" class="txt-blue title my-0 pl-2rem">Thor: Ragnarok</p>
+              </div>
+              <div class="">
+                <p id="date1" class="my-0 pl-2rem">25/10/2017</p>
+              </div>
+            </div>
+          </div>
+          <!-- Movie Synopsis -->
+          <div class="">
+            <p id="sinopse1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <!-- Movie Tags/Categories -->
+          <div class="">
+            <button type="button" name="button">Ação</button>
+            <button type="button" name="button">Aventura</button>
+            <button type="button" name="button">Fantasia</button>
+          </div>
+
+        </div>
+      </div>
+      <!-- 2nd Result -->
+      <div class="grid2575 mb-p5 detalhe" id="result2">
+        <!-- 2 Columns, one with IMG and other with info -->
+        <!-- Image -->
+        <div class="">
+          <img id="poster2" src="" alt="">
+        </div>
+        <!-- Movie Info -->
+        <div class="bg-grey">
+          <!-- Movie Title, Grade and Release Date -->
+          <!-- Maybe make with 2 divs? -->
+          <div class="grid1090">
+            <!-- Movie Score -->
+            <div class="bg-blue w-10 ball-border">
+              <p id="score2" class="txt-blue title my-0">XX%</p>
+            </div>
+            <div class="bg-grey">
+              <div class="bg-blue">
+                <p id="name2" class="txt-blue title my-0">Movies Name</p>
+              </div>
+              <div class="">
+                <p id="date2">01/01/0001</p>
+              </div>
+            </div>
+          </div>
+          <!-- Movie Synopsis -->
+          <div class="">
+            <p id="sinopse2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <!-- Movie Tags/Categories -->
+          <div class="">
+            <button type="button" name="button">Ação</button>
+            <button type="button" name="button">Aventura</button>
+            <button type="button" name="button">Fantasia</button>
+          </div>
+
+        </div>
+      </div>
+      <!-- 3rd Result -->
+      <div class="grid2575 mb-p5 detalhe" id="result3">
+        <!-- 2 Columns, one with IMG and other with info -->
+        <!-- Image -->
+        <div class="">
+          <img id="poster3" src="" alt="">
+        </div>
+        <!-- Movie Info -->
+        <div class="bg-grey">
+          <!-- Movie Title, Grade and Release Date -->
+          <!-- Maybe make with 2 divs? -->
+          <div class="grid1090">
+            <!-- Movie Score -->
+            <div class="bg-blue w-10 ball-border">
+              <p id="score3" class="txt-blue title my-0">XX%</p>
+            </div>
+            <div class="bg-grey">
+              <div class="bg-blue">
+                <p id="name3"class="txt-blue title my-0">Movies Name</p>
+              </div>
+              <div class="">
+                <p id="date3">01/01/0001</p>
+              </div>
+            </div>
+          </div>
+          <!-- Movie Synopsis -->
+          <div class="">
+            <p id="sinopse3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <!-- Movie Tags/Categories -->
+          <div class="">
+            <button type="button" name="button">Ação</button>
+            <button type="button" name="button">Aventura</button>
+            <button type="button" name="button">Fantasia</button>
+          </div>
+
+        </div>
+      </div>
+      <!-- 4th Result -->
+      <div class="grid2575 mb-p5 detalhe" id="result4">
+        <!-- 2 Columns, one with IMG and other with info -->
+        <!-- Image -->
+        <div class="">
+          <img  id="poster4" src="" alt="">
+        </div>
+        <!-- Movie Info -->
+        <div class="bg-grey">
+          <!-- Movie Title, Grade and Release Date -->
+          <!-- Maybe make with 2 divs? -->
+          <div class="grid1090">
+            <!-- Movie Score -->
+            <div class="bg-blue w-10 ball-border">
+              <p id="score4" class="txt-blue title my-0">XX%</p>
+            </div>
+            <div class="bg-grey">
+              <div class="bg-blue">
+                <p id="name4"class="txt-blue title my-0">Movies Name</p>
+              </div>
+              <div class="">
+                <p id="date4">01/01/0001</p>
+              </div>
+            </div>
+          </div>
+          <!-- Movie Synopsis -->
+          <div class="">
+            <p id="sinopse4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <!-- Movie Tags/Categories -->
+          <div class="">
+            <button type="button" name="button">Ação</button>
+            <button type="button" name="button">Aventura</button>
+            <button type="button" name="button">Fantasia</button>
+          </div>
+
+        </div>
+      </div>
+      <!-- 5th Result -->
+      <div class="grid2575 mb-p5 detalhe" id="result5">
+        <!-- 2 Columns, one with IMG and other with info -->
+        <!-- Image -->
+        <div class="">
+          <img  id="poster5" src="" alt="">
+        </div>
+        <!-- Movie Info -->
+        <div class="bg-grey">
+          <!-- Movie Title, Grade and Release Date -->
+          <!-- Maybe make with 2 divs? -->
+          <div class="grid1090">
+            <!-- Movie Score -->
+            <div class="bg-blue w-10 ball-border">
+              <p id="score5" class="txt-blue title my-0">XX%</p>
+            </div>
+            <div class="bg-grey">
+              <div class="bg-blue">
+                <p id="name5"class="txt-blue title my-0">Movies Name</p>
+              </div>
+              <div class="">
+                <p id="date5">01/01/0001</p>
+              </div>
+            </div>
+          </div>
+          <!-- Movie Synopsis -->
+          <div class="">
+            <p id="sinopse5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <!-- Movie Tags/Categories -->
+          <div class="">
+            <button type="button" name="button">Ação</button>
+            <button type="button" name="button">Aventura</button>
+            <button type="button" name="button">Fantasia</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- Pagination 1 to 5 -->
+    <div class="">
+      <button type="button" name="button">1</button>
+      <button type="button" name="button">2</button>
+      <button type="button" name="button">3</button>
+      <button type="button" name="button">4</button>
+      <button type="button" name="button">5</button>
+    </div>
+  </div>
+
+  <!-- Selected Movie -->
+  <div class="escolhido hide">
+    <!-- Movie Name and Release Date-->
+    <div class="">
+      <div class="">
+        <p id="det-title">Thor: Ragnarok</p>
+      </div>
+      <div class="">
+        <p id="det-release">25/10/2017</p>
+      </div>
+    </div>
+    <!-- Movie Details -->
+    <!-- 2 rows, 1st details and 2nd movie image  -->
+    <div class="">
+      <!-- Movie Details -->
+      <div class="">
+        <p>Sinopse</p>
+        <!-- Blue bar -->
+        <hr>
+        <p id="det-sinopse">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Informações</p>
+        <!-- Blue Bar -->
+        <hr>
+        <!-- Div with 6 columns -->
+        <div class="">
+          <!-- Situation Div -->
+          <div class="">
+            <div class="">
+              <p>Situação</p>
+            </div>
+            <div class="">
+              <p id="det-status">Lançado</p>
+            </div>
+          </div>
+          <!-- Language Div -->
+          <div class="">
+            <div class="">
+              <p>Idioma</p>
+            </div>
+            <div class="">
+              <p id="det-idioma">Inglês</p>
+            </div>
+          </div>
+          <!-- Duration Div -->
+          <div class="">
+            <div class="">
+              <p>Duração</p>
+            </div>
+            <div class="">
+              <p id="det-duracao">2h10min</p>
+            </div>
+          </div>
+          <!-- Budget Div -->
+          <div class="">
+            <div class="">
+              Orçamento
+            </div>
+            <div class="">
+              <p id="det-budget">$180.000.000,00</p>
+            </div>
+          </div>
+          <!-- Revenue Div -->
+          <div class="">
+            <div class="">
+              <p>Receita</p>
+            </div>
+            <div class="">
+              <p id="det-revenue">$853.997.000,00</p>
+            </div>
+          </div>
+          <!-- Profit Div -->
+          <div class="">
+            <div class="">
+              <p>Lucro</p>
+            </div>
+            <div class="">
+              <p id="det-profit">$673.977.000,00</p>
+            </div>
+          </div>
+        </div>
+        <!-- Categories and Score -->
+        <div class="">
+          <!-- Tag/Categories Div -->
+          <div class="">
+            <button type="button" name="button">Ação</button>
+            <button type="button" name="button">Aventura</button>
+            <button type="button" name="button">Fantasia</button>
+          </div>
+          <!-- Score Div -->
+          <div class="">
+            <p id="det-score">75%</p>
+          </div>
+        </div>
+
+      </div>
+      <!-- Movie Image -->
+      <div class="">
+        <img src="" alt="">
+      </div>
+    </div>
+    <!-- Youtube / Videos Div -->
+    <div class="">
+
+    </div>
+
+  </div>
+
+</body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="cubo.js"></script>
+
+</html>
